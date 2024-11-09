@@ -367,26 +367,21 @@ footer p {
         width: 100%;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     body {
-        font-size: 15px;
+        font-size: 14px; 
     }
-    .home {
+home {
         margin-left: auto;
         padding: 10px;
     }
     .form-register {
-        width: 90%;
-        margin-top: 30px;
-        padding: 20px;
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px;
     }
     .form-register h1 {
-        font-size: 26px;
-    }
-    .my-button {
-        width: 100%;
-        padding: 14px;
-        font-size: 16px;
+        font-size: 24px;
     }
     nav .menu ul {
         flex-direction: column;
@@ -394,38 +389,107 @@ footer p {
         padding: 0;
     }
     nav .menu ul li {
-        margin: 10px 0;
+        margin: 8px 0;
     }
-    .info-container {
-        flex-direction: column;
-        padding: 10px;
-    }
-    .info-box {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-    .producto-card {
-        width: 90%;
-        margin: 15px 0;
-    }
-    .producto {
-        margin: 20px 0;
-    }
-    .producto h2 {
-        font-size: 28px;
-    }
-    .producto img {
-        width: 80%;
-        max-width: 300px;
+    .my-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
     }
     footer {
         flex-direction: column;
-        padding: 15px;
+        padding: 10px;
     }
     footer table {
         width: 100%;
     }
     footer p {
         font-size: 12px;
+    }
+    .info-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .info-box {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 20px;
+    }
+    .producto-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .producto {
+        margin: 10px 0;
+    }
+    .producto h2 {
+        font-size: 24px;
+    }
+    .producto img {
+        width: 90%;
+        max-width: 250px;
+    }
+}
+@media (max-width: 360px) {
+    body {
+        font-size: 13px;
+    }
+    .home {
+        padding: 8px;
+    }
+    .form-register {
+        width: 100%;
+        margin-top: 15px;
+        padding: 12px;
+    }
+    .form-register h1 {
+        font-size: 22px;
+    }
+    nav .menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    nav .menu ul li {
+        margin: 6px 0;
+    }
+    .my-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 13px;
+    }
+    .info-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 8px;
+    }
+    .info-box {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+    .producto-card {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .producto {
+        margin: 5px 0;
+    }
+    .producto h2 {
+        font-size: 22px;
+    }
+    .producto img {
+        width: 85%;
+        max-width: 220px;
+    }
+    footer {
+        padding: 8px;
+    }
+    footer table {
+        width: 100%;
+    }
+    footer p {
+        font-size: 11px;
     }
 }
